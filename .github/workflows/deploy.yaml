@@ -3,7 +3,7 @@ name: Main Branch Test
 on:
   push:
     branches:
-      - dev
+      - main
 
 jobs:
   test:
@@ -11,4 +11,4 @@ jobs:
 
     steps:
       - name: Test
-        run: echo "TEST SUCCEEDED - dev branch"
+        run: echo "TEST SUCCEEDED - main branch"
