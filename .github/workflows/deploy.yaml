@@ -1,0 +1,14 @@
+name: Main Branch Test
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Test
+        run: echo "TEST SUCCEEDED - main branch"
